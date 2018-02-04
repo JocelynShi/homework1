@@ -7,9 +7,9 @@
  * @param {List} B
  * @returns {List}
  */
+
 function dcate(A, B) {
     /** Fill in here **/
-
     if (typeof A !== "object" || A.constructor !== List || typeof B !== "object" || B.constructor !== List) {
         return List.list([]);
     }
